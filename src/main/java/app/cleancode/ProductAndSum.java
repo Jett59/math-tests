@@ -17,7 +17,7 @@ public class ProductAndSum {
             System.out.printf("xy = %s\n", product);
             System.out.printf("y = %s-x\n", sum);
             System.out.printf("x(%s-x) = %s\n", sum, product);
-            System.out.printf("%sx-x2 = %s\n", sum, product);
+            System.out.printf("%sx-x\u00b2 = %s\n", sum, product);
             System.out.printf("-x\u00B2+%sx-%s = 0\n", sum, product);
             solve(BigDecimal.ONE.negate(), sum, product.negate());
         }
